@@ -12,6 +12,7 @@ class User(Base):
     first_name = Column(String)
     last_name = Column(String)
     phone_number = Column(String)
+    role = Column(String)
     email = Column(String)
     password = Column(String)
     time_created = Column(
